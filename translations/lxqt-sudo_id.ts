@@ -74,7 +74,22 @@ Arguments:
   arguments        Optional arguments for command.
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Penggunaan: %1 opsi [command [argumen...]]
+
+frontend GUI untuk %2/%3/%4
+
+Argumen:
+  opsi:
+    -h|--help      Tampilkan bantuan ini.
+    -v|--version   Tampilkan informasi versi.
+    -q|--quiet     Buat %1 lebih ringkas.
+    -s|--su        Pakai %3(1) sebagai backend.
+    -d|--sudo      Pakai %2(8) sebagai backend.
+    -a|--doas      Pakai %4(1) sebagai backend.
+  command          Perintah yang dijalankan.
+  arguments        Argumen opsional untuk command.
+
+</translation>
     </message>
     <message>
         <location filename="../sudo.cpp" line="97"/>
